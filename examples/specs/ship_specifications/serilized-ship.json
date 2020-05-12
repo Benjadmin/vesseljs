@@ -1,0 +1,210 @@
+{
+  "attributes" : { },
+  "designState" : {
+    "calculationParameters" : {
+      "LWL_design" : 200.0,
+      "Draft_design" : 11.0,
+      "Cb_design" : 0.57,
+      "speed" : 10,
+      "crew" : 16,
+      "K" : 0,
+      "Co" : 0,
+      "tripDuration" : 100
+    },
+    "objectOverrides" : {
+      "common" : {
+        "fullness" : 0
+      }
+    }
+  },
+  "data:" : { },
+  "structure" : {
+    "hull" : {
+      "attributes" : {
+        "LOA" : 200.0,
+        "BOA" : 35.0,
+        "Depth" : 11.0,
+        "APP" : 0,
+        "bulb" : false,
+        "transom" : true,
+        "cstern" : 0,
+        "prismaticLengthRatio" : 0.6,
+        "appendices" : { }
+      },
+      "halfBreadths" : {
+        "waterlines" : [ 0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6, 1.8 ],
+        "stations" : [ 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0 ],
+        "table" : [ [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ], [ 0.0, 0.0, 0.0, 0.07017543859649122, 0.4789473684210526, 0.5605263157894737, 0.513157894736842, 0.38947368421052636, 0.21403508771929824, 0.06315789473684211, 0.0 ], [ 0.27017543859649124, 0.637719298245614, 0.7456140350877193, 0.8114035087719298, 0.8482456140350877, 0.8464912280701754, 0.7789473684210527, 0.6342105263157894, 0.40350877192982454, 0.15789473684210525, 0.0 ], [ 0.7929824561403508, 0.8385964912280702, 0.874561403508772, 0.9052631578947369, 0.9263157894736842, 0.9342105263157895, 0.8903508771929824, 0.7728070175438597, 0.5482456140350876, 0.25789473684210523, 0.0 ], [ 0.8464912280701754, 0.8833333333333333, 0.9131578947368421, 0.9350877192982456, 0.9535087719298244, 0.9631578947368421, 0.9333333333333333, 0.8447368421052632, 0.6517543859649122, 0.3570175438596491, 0.04035087719298246 ], [ 0.863157894736842, 0.900877192982456, 0.9289473684210526, 0.9508771929824561, 0.9692982456140351, 0.9798245614035087, 0.9587719298245614, 0.8956140350877193, 0.7359649122807018, 0.45526315789473687, 0.08508771929824561 ], [ 0.8789473684210526, 0.9166666666666666, 0.943859649122807, 0.9666666666666666, 0.9833333333333334, 0.9929824561403509, 0.981578947368421, 0.9385964912280701, 0.8070175438596491, 0.5491228070175438, 0.1385964912280702 ], [ 0.8850877192982456, 0.9236842105263157, 0.9508771929824561, 0.9710526315789474, 0.987719298245614, 1.0, 0.9991228070175439, 0.9736842105263157, 0.8710526315789473, 0.6456140350877193, 0.21140350877192984 ], [ 0.8850877192982456, 0.9236842105263157, 0.9508771929824561, 0.9710526315789474, 0.987719298245614, 1.0, 0.9991228070175439, 0.9780701754385965, 0.8885964912280702, 0.6947368421052631, 0.2807017543859649 ], [ 0.8850877192982456, 0.9236842105263157, 0.9508771929824561, 0.9710526315789474, 0.987719298245614, 1.0, 0.9991228070175439, 0.9780701754385965, 0.8885964912280702, 0.6947368421052631, 0.3263157894736842 ] ]
+      },
+      "style" : {
+        "upperColor" : "pink",
+        "lowerColor" : "grey",
+        "opacity" : 0.6
+      },
+      "buttockHeights" : { }
+    },
+    "decks" : {
+      "WeatherDeck" : {
+        "zFloor" : 31.421445404556167,
+        "thickness" : 0.1,
+        "xAft" : 0,
+        "xFwd" : 200.0,
+        "yCentre" : 0.0,
+        "breadth" : 35.0,
+        "density" : 7700
+      }
+    },
+    "bulkheads" : { }
+  },
+  "baseObjects" : [ {
+    "id" : "crew_module.stl",
+    "affiliations" : { },
+    "boxDimensions" : {
+      "length" : 6.285714285714286,
+      "breadth" : 35.0,
+      "height" : 5.0
+    },
+    "capabilities" : { },
+    "file3D" : "",
+    "baseState" : {
+      "fullness" : 0.8
+    },
+    "weightInformation" : {
+      "lightweight" : 36000.0,
+      "cg" : [ 0.0, 0.0, 0.0 ]
+    }
+  }, {
+    "id" : "roro_cargo_module.stl",
+    "affiliations" : { },
+    "boxDimensions" : {
+      "length" : 190.0,
+      "breadth" : 33.5,
+      "height" : 24.842890809112333
+    },
+    "capabilities" : { },
+    "file3D" : "",
+    "baseState" : {
+      "fullness" : 0.2
+    },
+    "weightInformation" : {
+      "lightweight" : 1.1E7,
+      "cg" : [ 0.0, 0.0, 0.0 ]
+    }
+  }, {
+    "id" : "four_stroke_engine_module.stl",
+    "affiliations" : { },
+    "boxDimensions" : {
+      "length" : 11.987202231858083,
+      "breadth" : 11.987202231858083,
+      "height" : 11.987202231858083
+    },
+    "capabilities" : { },
+    "file3D" : "",
+    "baseState" : {
+      "fullness" : 0.8
+    },
+    "weightInformation" : {
+      "lightweight" : 344495.4516499873,
+      "cg" : [ 0.0, 0.0, 0.0 ]
+    }
+  }, {
+    "id" : "Pressurized_Ammonia_tank_module.stl",
+    "affiliations" : { },
+    "boxDimensions" : {
+      "length" : 44.26501880561817,
+      "breadth" : 20.0,
+      "height" : 4.0
+    },
+    "capabilities" : { },
+    "file3D" : "",
+    "baseState" : {
+      "fullness" : 0.8
+    },
+    "weightInformation" : {
+      "lightweight" : 2036878.5626573064,
+      "cg" : [ 0.0, 0.0, 0.0 ]
+    }
+  }, {
+    "id" : "single_screw_propeller_module.stl",
+    "affiliations" : { },
+    "boxDimensions" : {
+      "length" : 1.0,
+      "breadth" : 8.0,
+      "height" : 8.0
+    },
+    "capabilities" : { },
+    "file3D" : "single_screw_propeller_module.stl",
+    "baseState" : {
+      "fullness" : 0.8
+    },
+    "weightInformation" : {
+      "lightweight" : 10000.0,
+      "cg" : [ 0.0, 0.0, 0.0 ]
+    }
+  } ],
+  "derivedObjects" : [ {
+    "id" : "Crew module",
+    "baseObject" : "crew_module.stl",
+    "affiliations" : {
+      "Deck" : "",
+      "SFI" : ""
+    },
+    "referenceState" : {
+      "xCentre" : 170.0,
+      "yCentre" : 0.0,
+      "zBase" : 30.5
+    },
+    "style" : {
+      "color" : "#aabbcc",
+      "opacity" : 0.8
+    }
+  }, {
+    "id" : "RoRo Cargo module",
+    "baseObject" : "roro_cargo_module.stl",
+    "affiliations" : {
+      "Deck" : "",
+      "SFI" : ""
+    },
+    "referenceState" : {
+      "xCentre" : 95.0,
+      "yCentre" : 0.0,
+      "zBase" : 5.578554595443833
+    }
+  }, {
+    "id" : "Four stroke engine module",
+    "baseObject" : "four_stroke_engine_module.stl",
+    "affiliations" : {
+      "Deck" : "",
+      "SFI" : ""
+    },
+    "referenceState" : {
+      "xCentre" : 40.0,
+      "yCentre" : 0.0,
+      "zBase" : 1.0063988840709586
+    }
+  }, {
+    "id" : "Pressurized Ammonia tank module",
+    "baseObject" : "Pressurized_Ammonia_tank_module.stl",
+    "affiliations" : {
+      "Deck" : "",
+      "SFI" : ""
+    },
+    "referenceState" : {
+      "xCentre" : 100.0,
+      "yCentre" : 0.0,
+      "zBase" : 1.0
+    }
+  }, {
+    "id" : "Single screw propeller module",
+    "baseObject" : "single_screw_propeller_module.stl",
+    "affiliations" : {
+      "Deck" : "",
+      "SFI" : ""
+    },
+    "referenceState" : {
+      "xCentre" : 0.0,
+      "yCentre" : 0.0,
+      "zBase" : 0.0
+    }
+  } ]
+}
